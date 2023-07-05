@@ -31,9 +31,6 @@ If you're working with a monorepo, you can use semantic-release-monorepo to hand
 
 In conclusion, semantic-release is a powerful tool for managing releases in a software project. By enforcing semantic commits, automating release and publishing, sharing releases with your team, tracking issues using monitoring tools, and handling releases in a monorepo, you can streamline your release process and ensure that your software is always up-to-date.
 
-Sure, here are the references and resources in Jekyll's conventions:
-
----
 
 ## References and Resources
 
