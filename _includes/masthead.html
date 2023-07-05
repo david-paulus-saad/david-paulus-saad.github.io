@@ -20,14 +20,12 @@
         </a>
       </div>
     {% endif %}
-    {% if user.email %}
       <div class="{{ metadata_styles }}">
         {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
-        <a href="mailto:{{ user.email }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
-          {{ user.email }}
+        <a href="mailto:david.paulus.sre@gmail.com" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+          david.paulus.sre@gmail.com
         </a>
       </div>
-    {% endif %}
     {% if user.location %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
@@ -47,8 +45,6 @@
         {% endfor %}
       </div>
     {% endif %}
-    {% if user.hireable %}
       <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
-    {% endif %}
   </div>
 {% endif %}
